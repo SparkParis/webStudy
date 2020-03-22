@@ -1,0 +1,44 @@
+@charset "utf-8";
+article, aside, blockquote, body, button, code, dd, details, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, input, legend, li, menu, nav, ol, p, pre, section, td, textarea, th, ul{
+    margin: 0;
+    padding: 0;
+}
+ul,ol,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+i,em {
+    font-style: normal;
+}
+input, textarea, button, select, a {
+    outline: none;
+    border: none;
+  }
+img {
+    /* 去除图片下方的由于基线对齐引起的多余像素空间 */
+    vertical-align: middle;
+    border: none;/*有些浏览器中会存在边框*/
+}
+/* 设置整体的字体\前景颜色\背景颜色 */
+body {
+    font: 12px/1.5 Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,\5FAE\8F6F\96C5\9ED1,tahoma,simsun,\5b8b\4f53;
+    color: #333;
+    background-color: #f6f6f6;
+    min-width: 1100px;
+  }
+  /* 清除浮动 */
+  .clearfix:after{
+    content: ""; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;  
+  }
+  
+  .clearfix {
+    /* 触发 hasLayout */ 
+    *zoom: 1; 
+  }

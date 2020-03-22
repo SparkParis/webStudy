@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* 顶部整体样式 */
+#footer {
+border-top: 1px solid #eaeaea;
+margin-top: 80px;
+background-color: #fff;
+}
+
+.service {
+padding: 49px 15px;
+border-bottom: 1px solid #eaeaea;
+}
+
+.service .item {
+float: left;
+width: 233px;
+margin: 0 23px;
+}
+
+.service .item:last-child {
+margin-right: 0;
+}
+
+.service .item .icon {
+width: 48px;
+height: 48px;
+margin-right: 18px;
+line-height: 48px;
+border: 2px solid #d6d6d6;
+border-radius: 50%;
+text-align: center;
+
+font-size: 20px;
+font-weight: 700;
+
+float: left;
+}
+
+.service .item .title {
+font-size: 18px;
+}
+
+.service .item .desc {
+font-size: 14px;
+}
+
+/* 指南相关样式 */
+.guide {
+padding: 45px 0 90px;
+}
+
+.follow {
+float: left;
+padding-right: 40px;
+}
+
+.follow-us {
+margin-top: 16px;
+}
+
+.follow-us .icon {
+display: inline-block;
+width: 32px;
+height: 32px;
+margin-left: 8px;
+vertical-align: middle;
+}
+
+.follow-us .icon-weibo {
+background: url('../img/icon-weibo.png');
+}
+
+.follow-us .icon-wechat {
+background: url('../img/icon-weixin.png');
+}
+
+
+.guide-list {
+float: left;
+}
+
+.guide-list .item {
+float: left;
+width: 110px;
+padding-left: 21px;
+}
+
+.guide-list .item dt {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.guide-list .item dd {
+margin-bottom: 8px;
+}
+
+.guide-list .item dd a:hover {
+text-decoration: underline;
+}
+
+.download {
+text-align: center;
+}
+
+.download p {
+margin-top: 8px;
+}
+
+/* 关于我们样式 */
+.about {
+padding: 20px 0;
+background: #333;
+color: #c2c2c2;
+text-align: center;
+}
+
+.about p {
+margin-top: 8px;
+}
+
+.about a {
+color: #c2c2c2;
+}
+
+.about a:hover {
+text-decoration: underline;
+}
+
+.about .line2 a, .about .line3 a {
+margin: 0 24px;
+}
+
+.about .police {
+position: relative;
+}
+
+.about .police::before {
+position: absolute;
+content: "";
+width: 20px;
+height: 20px;
+background: url("../img/icon-police.png");
+left: -25px;
+top: -3px;
+}
+
+.honest {
+margin-top: 8px;
+}
+
+.honest .icon1 {
+width: 84px;
+height: 30px;
+}
+
+.honest .icon2 {
+width: 80px;
+height: 30px;
+margin: 0 12px;
+}
+
+.honest .icon3 {
+width: 30px;
+height: 30px;
+}
+

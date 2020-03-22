@@ -1,0 +1,21 @@
+.wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+/* 三横线样式 */
+.lineicon {
+    width: 15px;
+}
+.lineicon li {
+    width: 15px;
+    height: 2px;
+    margin-bottom: 2px;
+    background-color: #ddd;
+}
+.lineicon li:nth-last-child(1) {
+    margin-bottom: 0;
+}
+.hot {
+    color: #ff1e32;
+}
+

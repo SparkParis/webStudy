@@ -1,0 +1,124 @@
+@charset "utf-8";
+.aside-left {
+position: fixed;
+top: 66px;
+left: 50%;
+margin-left: -665px;
+z-index: 99;
+}
+
+.aside-left .section1 {
+border-bottom: none;
+}
+
+.aside-left .section1 div {
+border: 1px solid #eaeaea;
+font-size: 14px;
+font-weight: 700;
+height: 50px;
+line-height: 50px;
+padding-left: 8px;
+background-color: #fff;
+border-bottom: 1px solid #eaeaea;
+}
+
+.aside-left .section2 {
+padding: 10px 0;
+}
+
+.aside-left .section2 li:hover {
+background-color: #fff;
+}
+
+.aside-left .section2 {
+background-color: #fff;
+border: 1px solid #eaeaea;
+border-top: none;
+}
+
+.aside-left .section2 a {
+color: #999;
+height: 32px;
+line-height: 32px;
+display: block;
+padding-left: 9px;
+}
+
+.aside-left .section2 a:hover {
+background-color: #f6f6f6;
+}
+
+
+.aside-right {
+z-index: 1;
+position: fixed;
+top: 66px;
+right: 50%;
+margin-right: -665px;
+border: 1px solid #eaeaea;
+}
+
+.aside-right ul {
+background-color: #fff;
+}
+
+.aside-right ul a {
+display: inline-block;
+padding: 12px 0 0;
+width: 62px;
+height: 48px;
+text-align: center;
+}
+
+.aside-right ul li {
+border-bottom: 1px solid #eaeaea;
+}
+
+.aside-right ul li:last-child {
+border-bottom: none;
+}
+
+.aside-right ul a .icon {
+display: block;
+width: 20px;
+height: 20px;
+margin: 0 auto 3px;
+}
+
+.aside-right ul a .icon-signin {
+background: url(../img/icon-aside-right-signin.png);
+}
+
+.aside-right ul a .icon-cart {
+background: url(../img/icon-aside-right-cart.png);
+}
+
+.aside-right ul a .icon-phone {
+background: url(../img/icon-aside-right-phone.png);
+}
+
+.aside-right ul a .icon-top {
+background: url(../img/icon-aside-right-top.png);
+}
+
+.aside-right ul a:hover {
+color: #ff1e32;
+background-color: #f6f6f6;
+}
+
+.aside-right ul a:hover .icon-signin {
+background: url(../img/icon-aside-right-signin-active.png);
+}
+
+.aside-right ul a:hover .icon-cart {
+background: url(../img/icon-aside-right-cart-active.png);
+}
+
+.aside-right ul a:hover .icon-phone {
+background: url(../img/icon-aside-right-phone-active.png);
+}
+
+.aside-right ul a:hover .icon-top {
+background: url(../img/icon-aside-right-top-active.png);
+}
+

@@ -1,0 +1,593 @@
+@charset "utf-8";
+/* 今日限时购样式 */
+/* 今日限购的样式 */
+.section-header {
+height: 74px;
+padding-top: 25px;
+box-sizing: border-box;
+font-size: 14px;
+color: #999;
+border-top: 1px solid #e9e9e9;
+margin-top: 36px;
+}
+
+.header-left {
+float: left;
+}
+
+.header-right {
+float: right;
+}
+
+.header-right a {
+color: #999;
+}
+
+.header-left h2 {
+float: left;
+font-size: 22px;
+color: #333;
+}
+
+.header-left span {
+float: left;
+margin-top: 10px;
+margin-left: 12px;
+}
+
+.header-left .time {
+font-size: 0;
+}
+
+.header-left .time i {
+font-size: 14px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background-color: #ff080f;
+color: #fff;
+text-align: center;
+border-radius: 10px;
+}
+
+.header-left .time em {
+font-size: 14px;
+margin: 0 2px;
+font-weight: bold;
+}
+
+.header-right a {
+position: relative;
+top: 10px;
+}
+
+.section.section-header .keyword {
+    float: left;
+}
+
+.section.section-header .keyword li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.section.section-header .keyword .hot {
+    color: #ff080f;
+}
+
+.today-content {
+
+}
+
+.today-right {
+float: right;
+}
+
+.today-content .today-item {
+float: left;
+width: 420px;
+height: 190px;
+background-color: #fff;
+box-sizing: border-box;
+border-right: 1px solid #eaeaea;
+border-bottom: 1px solid #eaeaea;
+}
+
+.today-item img {
+float: left;
+}
+
+.today-item .content {
+float: left;
+width: 205px;
+padding-top: 15px;
+}
+
+.today-item a:hover {
+text-decoration: underline;
+}
+
+.today-item .content .title {
+font-size: 16px;
+font-weight: 700;
+}
+
+.today-item .content .desc {
+margin-top: 10px;
+}
+
+.today-item .content .desc a {
+color: #999;
+}
+
+.today-item .content .price {
+margin-top: 5px;
+}
+
+.today-item .content .new-price {
+font-size: 20px;
+font-weight: 700;
+color: #ff080f;
+}
+
+.today-item .content .old-price {
+font-size: 15px;
+color: #999;
+text-decoration: line-through;
+margin-left: 8px;
+}
+
+
+.today-item .counter {
+margin-top: 20px;
+height: 38px;
+line-height: 38px;
+position: relative;
+}
+
+.today-item .counter > div {
+display: inline-block;
+}
+
+.today-item .counter-left {
+font-size: 14px;
+color: #ff1e32;
+}
+
+.today-item .counter-right a:hover {
+text-decoration: none;
+}
+
+
+.today-item .counter-right a {
+position: absolute;
+width: 82px;
+height: 38px;
+border: 1px solid #ff1e32;
+border-radius: 36px;
+line-height: 38px;
+text-align: center;
+font-size: 14px;
+color: #ff1e32;
+top: 0;
+right: 0;
+}
+
+.today-right img {
+width: 260px;
+height: 380px;
+}
+/* 热门品牌的样式 */
+#main .brand .section-content .brand-left {
+float: left;
+width: 219px;
+height: 355px;
+border-right: 1px solid #eaeaea;
+background-color: rgb(155, 146, 146);
+}
+#main .brand .section-content .brand-left .swiper {
+position: relative;
+display: block;
+}
+#main .brand .section-content .brand-left .swiper img {
+width: 219px;
+height: 219px;
+}
+#main .brand .section-content .brand-left .swiper .control {
+display: none;
+height: 32px;
+position: absolute;
+right: 0;
+left: 0;
+top: 40%;
+
+}
+#main .brand .section-content .brand-left .swiper:hover .control {
+display: inline-block;
+}
+#main .brand .section-content .brand-left .swiper .control i {
+width: 28px;
+height: 32px;
+/* background: url(../img/kl-sprite-01.png) center center; */
+}
+#main .brand .section-content .brand-left .swiper .control .prev {
+float: left;
+/* background-position: -625px -68px; */
+background-color: #0f0;
+}
+#main .brand .section-content .brand-left .swiper .control .next {
+float: right;
+background-color: #0ff;
+/* background-position: -670px -67px 0; */
+}
+/* 进度条 */
+#main .brand .section-content .brand-left .process {
+width: 100px;
+height: 2px;
+background-color: #ff1e32;
+}
+#main .brand .section-content .brand-left .info {
+display: inline-block;
+height: 136px;
+width: 219px;
+background-color: #151515;
+text-align: center;
+}
+#main .brand .section-content .brand-left span {
+display: block;
+color: #fff;
+}
+#main .brand .section-content .brand-left .title {
+font-size: 20px;
+font-weight: 700;
+margin-top: 20px;
+}
+#main .brand .section-content .brand-left .desc {
+font-size: 14px;
+margin-top: 8px;
+
+}
+#main .brand .section-content .list {
+float: right;
+width: 880px;
+height: 354px;
+border-top: 1px solid #eaeaea;
+}
+#main .brand .section-content .list li {
+position: relative;
+float: left;
+width: 219px;
+height: 176px;
+text-align: center;
+border-right: 1px solid #eaeaea;
+border-bottom: 1px solid #eaeaea;
+background-color: #fff;
+}
+#main .brand .section-content .list li img {
+position: inline-block;
+margin-top: 12px;
+transition: transform .3s ease;
+transform-origin: center 0;
+}   
+#main .brand .section-content .list li:hover img {
+transform: scale(.66);
+}
+#main .brand .section-content .list li:hover .desc {
+opacity: 0;
+}
+#main .brand .section-content .list li .desc {
+opacity: 1;
+font-size: 14px;
+margin-top: 10px;
+font-weight: 700;
+text-align: center;
+transition: opacity .3 ease;
+}
+#main .brand .section-content .list li .active {
+opacity: 0;
+position: absolute;
+/* 设置绝对定位使其充满整个下部空间 */
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+transition: opacity .3 ease-in;
+}
+#main .brand .section-content .list li:hover .active {
+opacity: 1;
+
+}
+#main .brand .section-content .list li .active .focus {
+position: absolute;
+top: 10px;
+left: 10px;
+text-align: center;
+width: 52px;
+height: 20px;
+line-height: 20px;
+border: 1px solid #999;
+color: #999;
+border-radius: 20px;
+}
+#main .brand .section-content .list li .active .info {
+position: absolute;
+left: 0;
+right: 0;
+margin: 0 auto;
+bottom: 10px;
+}
+#main .brand .section-content .list li .active .info p {
+color:#999 ;
+font-size: 12px;
+text-align: center;
+
+}
+#main .brand .section-content .list li .active .info a {
+display: block;
+margin: 0 auto;
+width: 80px;
+height: 32px;
+line-height: 32px;
+border: 2px solid #ff1e3c;
+border-radius: 18px;
+font-size: 14px;
+color: #ff1e3c;
+text-align: center;
+margin-top: 8px;
+}
+/* 美妆专区 */
+.section .content-left {
+position: relative;
+width: 330px;
+height: 541px;
+overflow: hidden;
+float: left;
+}
+
+.section .content-left .keyword {
+position: absolute;
+width: 330px;
+bottom: 24px;
+left: 50%;
+transform: translateX(-50%);
+}
+
+.section .content-left .keyword li {
+float: left;
+margin-left: 21px;
+margin-top: 10px;
+}
+
+.section .content-left .keyword a {
+display: inline-block;
+width: 82px;
+height: 42px;
+line-height: 42px;
+text-align: center;
+border-radius: 40px;
+background-color: #fff;
+border: 1px solid #eee;
+box-shadow: 0 0 0 1px rgba(0, 0, 0, .1);
+}
+
+.section .content-center {
+float: left;
+width: 550px;
+border-top: 1px solid #eaeaea;
+}
+
+.section .content-center .item {
+float: left;
+width: 274px;
+height: 269px;
+text-align: center;
+background-color: #fff;
+border-bottom: 1px solid #e9e9e9;
+border-right: 1px solid #e9e9e9;
+}
+
+.section .content-center .item h3 {
+font-size: 24px;
+font-weight: 400;
+margin-top: 20px;
+}
+
+.section .content-center .item p {
+font-size: 14px;
+margin-top: 6px;
+}
+
+.section .content-center .item img {
+margin-top: 20px;
+}
+
+.section .content-right {
+float: left;
+width: 220px;
+height: 540px;
+}
+
+.section .content-right .header {
+height: 59x;
+line-height: 59px;
+border: 1px solid #e9e9e9;
+border-left-width: 0;
+background-color: #fff;
+}
+
+.section .content-right .header h3 {
+font-size: 16px;
+margin-left: 15px;
+}
+
+.section .content-right .item {
+width: 205px;
+height: 92px;
+padding: 27px 14px 0 0;
+border-bottom: 1px dashed #e9e9e9;
+border-right: 1px solid #e9e9e9;
+background-color: #fff;
+}
+
+.section .content-right .item a:hover {
+text-decoration: underline;
+}
+
+.section .content-right .last {
+border-bottom-style: solid;
+}
+
+.section .content-right .item img {
+float: left;
+margin: 0 5px;
+}
+
+.section .content-right .item .price {
+margin-top: 12px;
+}
+
+.section .content-right .item .new-price {
+color: #ff1e32;
+font-size: 20px;
+font-weight: 700;
+}
+
+.section .content-right .item .old-price {
+font-size: 14px;
+color: #999;
+text-decoration: line-through;
+margin-left: 8px;
+}
+
+
+.section.footer {
+    margin-top: 20px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+}
+
+.section .top {
+    height: 49px;
+    border-bottom: 1px solid #e9e9e9;
+    line-height: 49px;
+}
+
+.section .top h3 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.section .list {
+    margin-right: -1px;
+    /* width: 1111px; */
+}
+
+.section .list .item {
+    float: left;
+    width: 219px;
+    height: 167px;
+    line-height: 167px;
+    border-right: 1px solid #eaeaea;
+    text-align: center;
+}
+
+.section .list .item:last-child {
+    border-right: none;
+}
+
+.section .list .item img {
+    vertical-align: middle;
+    display: inline-block;
+}
+/* 猜你喜欢 */
+/* 猜你喜欢 */
+.favorite .header-left span {
+color: #666;
+}
+
+.favorite .content {
+margin-right: -20px;
+}
+
+.favorite .content .item {
+width: 260px;
+float: left;
+margin-right: 20px;
+}
+
+.favorite .content .item > a {
+display: inline-block;
+width: 260px;
+height: 260px;
+background-color: #fff;
+text-align: center;
+line-height: 260px;
+}
+
+.favorite .content .item > a > img {
+width: 180px;
+height: 180px;
+vertical-align: middle;
+}
+
+.favorite .content .title {
+height: 50px;
+display: -webkit-box;
+padding: 0 30px 0 0;
+box-sizing: border-box;
+font-weight: 700;
+overflow: hidden;
+text-overflow: ellipsis;
+word-break: break-all;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+}
+
+.favorite .content .title {
+font-size: 16px;
+font-weight: 700;
+/* margin: 8px 0px 0px; */
+}
+
+.favorite .content .title a:hover {
+text-decoration: underline;
+}
+
+.favorite .content .desc-left {
+float: left;
+}
+
+.favorite .content .desc-right {
+float: right;
+}
+
+.favorite .content .item .new-price {
+color: #ff1e32;
+font-size: 14px;
+}
+
+.favorite .content .item .money {
+font-size: 20px;
+font-weight: 700;
+}
+
+.favorite .content .item .old-price {
+text-decoration: line-through;
+margin-left: 10px;
+color: #999;
+}
+
+.favorite .content .desc-right {
+vertical-align: bottom;
+}
+
+.favorite .content .item .comment {
+color: #999;
+display: inline-block;
+margin-top: 10px;
+}
+
+.favorite .content .item .comment:hover {
+text-decoration: underline;
+}
+

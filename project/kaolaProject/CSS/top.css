@@ -1,0 +1,253 @@
+
+@charset "utf-8";
+#top .tabbar {
+    height: 40px;
+    line-height: 40px;
+    font: 15px;
+    color: #333;
+    border-bottom:1px solid #eaeaea;
+}
+#top .tabbar .category {
+    float: left;
+    display: inline-block;
+    width: 164px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ff5160;
+    /* 设置背景渐变 */
+    background: linear-gradient(90deg,red,#ff3264);
+    /* 为目录列表设置绝对定位 */
+    position: relative;
+}
+#top .tabbar .category .lineicon {
+    display: inline-block;
+    overflow: hidden;
+    margin-right: 25px;
+}
+#top .tabbar .category>span {
+    font-size: 14px;
+    font-size: 700;
+    color:#fff;
+    overflow: hidden;
+    padding-left: 0;
+}
+#top .tabbar .category .categories {
+    width: 164px;
+    position: absolute;
+    z-index: 1; 
+    background: linear-gradient(90deg,red,#ff3264);
+}
+#top .tabbar .category .categories li a {
+    /* 设置为block使a占据整个空格空间 */
+    display: block;
+    height: 41px;
+    line-height:41px;
+    border-top: 1px solid #ff5160;
+    
+}  
+
+#top .tabbar .category .categories li a img {
+    margin-left: 30px;
+    float: left;
+    margin-top: 12px;
+
+}     
+#top .tabbar .category .categories li a span {
+    font-size: 14px;
+    font-size: 700;
+    color:#fff;
+    padding: 10px;
+} 
+#top .tabbar .category .categories li a img.active {
+    display: none;
+}
+#top .tabbar .category .categories li a:hover img {
+    display: none;
+}
+#top .tabbar .category .categories li a:hover {
+    background-color: #fff;
+}
+ 
+#top .tabbar .category .categories li a:hover span {
+    color:#ff1e32 ;  
+} 
+#top .tabbar .category .categories li a:hover img.active {
+    display: inline;
+}
+#top .tabbar .list {
+    float: left;
+}
+#top .tabbar .list li {
+    float: left;
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+#top .tabbar .list li a {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    height: 40px;
+    padding: 0 12px;
+}
+#top .tabbar a:hover {
+    color: #ff1e32;
+}
+/* 轮播图样式 */
+#top .banner {
+    overflow: hidden;
+    min-width: 1100px;
+    position: relative;
+}
+#top .banner .swiper img{
+    /* 通过相对定位设置图片水平居中 */
+    position: relative;
+    /* 设置了z-index导致a元素撑不起来 */
+    /* z-index: -9; */
+    /* 1.向左移动自身的一半 */
+    /* ps:transform对行内元素无效 */
+    transform: translate(-50%,0);
+    /* 2.向右移动自身的一半 
+    两种写法left: 50%;
+    right: -50%;*/
+    right: -50%;
+}
+/* 设置轮播控制按钮 */
+#top .banner .swiper .control {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 40%;
+    height: 68px;
+}
+#top .banner .swiper:hover .control {
+    display: block;
+
+}
+#top .banner .swiper .control i {
+    width: 34px;
+    height: 68px;
+    background-image: url(../img/kl-sprite-01.png);
+}
+#top .banner .swiper .control i.prev {
+    float: left;
+    margin-left: 174px;
+    background-position:-625px -68px;
+}
+#top .banner .swiper .control i.next {
+    float: right;
+    background-position: -670px -67px ;
+}
+/* 轮播图原点设置 */
+#top .banner .swiper .dots {
+    /* 设置绝对定位以后设置宽度布满 */
+    position: absolute;
+    left: 0;
+    right: 0;
+    /* 设置span为块级元素 */
+    display: inline-block;
+    width: 1100px;
+    bottom: 60px;
+
+}
+#top .banner .swiper .dots .dot {
+    position: absolute;
+    bottom: 6px;
+    left: 184px;
+}
+#top .banner .swiper .dots i{
+    float: left;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background: #fff;
+}
+#top .banner .swiper .dots .dot i:hover {
+    background: #ff1e32;
+}
+#top .banner .swiper .dots .dot .active {
+    background: #ff1e32;
+}
+/* 高斯模糊样式 */
+#top .banner .service {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left:0;
+    height: 45px;
+    overflow: hidden;
+}
+#top .banner .service .blur {
+    /* 设置绝对定位覆盖service底层 */
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* 设置背景色模糊覆盖img图片 */
+    background-image: url(../img/banner.jpg) center bottom;
+    filter: blur(8px);  
+}
+#top .banner .service ul {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    /* 设置相对定位,显示ul中的文字 */
+    position: relative;
+}
+#top .banner .service ul li {
+    float: left;
+    margin-left: 30px;
+    
+}
+#top .banner .service a {
+    font-size: 15px;
+    color: #fff;
+}
+#top .banner .service ul li i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border:2px solid #fff;
+    border-radius: 50%;
+    margin-right: 7px;
+    color: #fff;
+}
+#top .banner .service ul a {
+    color: #fff;
+    font-size: 12px;
+
+}
+#top .banner .service a:hover {
+    text-decoration: underline;
+}
+#top .banner .service .service-right {
+    float: right;
+    display: inline-block;
+    /* 通过设置相对定位来设置垂直居中
+     */
+     position: relative;
+     transform: translate(0,30%);
+}
+#top .banner .service .service-right::before{
+    position: relative;
+    top: 5px;
+    left: 3px;
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/icon-service-right-iphone.png);
+
+}
+#top .banner .service .service-right a 
+{
+    margin-left: 8px;
+    font-size: 12px;
+}

@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* 广告 ,在设置前面加上每个块的u元素*/
+#header {
+    width: 1100px;
+    margin: 0 auto;
+}
+#header .ad {
+    /* 图片多余部分设置hideen */
+    overflow: hidden;
+    /* 设置最小宽度 */
+    min-width: 1100px;
+
+}
+#header .ad img {
+    /*采用相对定位 设置图片居中,是给图片进行设置 */
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);         
+}
+/* 导航 */
+#header .nav {
+    background-color: #000;
+
+}
+#header .wrap {
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+    
+}
+#header .nav-left{
+    float: left;
+}
+#header .welcome {
+    /* display: inline-block; */
+    float: left;
+}
+#header .nav-left .account {
+    /* display: inline-block; */
+    float: left;
+}
+#header .nav-left ul li{
+    /* display: inline-block; */
+    float: left;
+    margin-left: 28px;
+}
+#header .nav a {
+    font: 12px;
+    color: #999999;
+    /* 设置a包含上下边框 */
+    /* display: inline-block; */
+    height: 30px;
+    margin-left: 30px;
+    float: left;
+}
+#header  .nav-right {
+    float: right;
+  
+}
+#header .nav-right .group1{
+    float: right;
+}
+#header .nav-right .group2{
+    float: right;
+}
+#header .nav-right a {
+    padding: 0 16px 0 12px;
+}
+#header .nav-right .group2 a {
+    margin-left: 0px;
+    padding: 0 12px;
+
+}
+#header .nav-right .group1 a {
+    margin-left: 15px;
+}
+
+#header .nav a:hover {
+    color: #fff;
+}
+#header .nav-right .group2 a:hover {
+    color: #ff1e32;
+    background: #fff;
+}
+#header .nav-right .group2 i {
+    /* 设置相对定位 ,不占据位置*/
+    position: relative;
+    top: 2px;
+    /* 先设置为行内级元素,设置宽高 */
+    display: inline-block;
+    width: 0;
+    height: 0;
+/* 设置border箭头 */
+    border:4px solid #999;
+    border-left-color:transparent;
+    border-right-color:transparent;
+    border-bottom-color:transparent;
+    /* 设置动画效果 */
+    transition:transform .1s ease ;
+    transform-origin: center 2px;
+    
+}
+#header .nav-right .group2 a:hover i {
+    border-top-color:#ff1e32 ;
+    transform: rotate(180deg);
+    
+}
+#header .operation {
+    height: 100px;
+    position: relative;
+    
+}
+#header .operation img {
+    float: left;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    margin: auto 0 ;
+
+}
+#header .operation .search {
+    float: right;
+    width: 403px;
+    /* 行高让她自己撑起来 */
+    border: 2px solid #ff1e32;
+    border-radius: 36px;
+    text-align: center;
+    padding: 6px 39px 6px 30px;
+    position: relative;
+    /*相对定位设置居中 */
+    top: 50%;
+    transform: translate(0,-50%);
+
+}
+#header .operation .search input {
+    width: 400px;
+    height: 24px;
+ 
+}
+#header .operation .search input::placeholder {
+    font-style: italic;
+}
+#header .operation .search i {
+    position: absolute;
+    left: 8px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+
+    width: 14px;
+    height: 14px;
+    text-indent: -999px;
+    background-image: url(../img/kl-sprite-01.png) ;
+    background-position: -466px -667px;
+
+}
+#header .operation .search span {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    width: 60px;
+    height: 40px;
+    /* background-color: #00f; */
+    border-radius: 40px;
+    background: url(../img/icon-search.png) no-repeat center center #ff1e32;
+}
+#header  .cart {
+    float: right;
+    width: 112px;
+    height: 38px;
+    line-height: 38px;
+    border: 2px solid #ff1e32;
+    border-radius: 40px;
+    text-align: center ;
+    margin: 0 60px;
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#header .cart i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/shopcart-icon.png);
+    position: relative;
+    top: 2px;
+    
+}
+#header .cart span {
+    font-size: 14px;
+    color: #333;
+    line-height: 38px;
+
+}
+
+
