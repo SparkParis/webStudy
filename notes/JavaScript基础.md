@@ -1,4 +1,4 @@
-[JavaScript介绍](#javascript介绍)auto
+- [JavaScript介绍](#javascript介绍)
 - [JavaScript运算符](#javascript运算符)
 - [JavaScript数组](#javascript数组)
 - [JavaScript对象](#javascript对象)
