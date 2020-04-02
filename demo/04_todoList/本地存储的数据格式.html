@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+  <script>
+    var todolist = [{
+      title: "题目1",
+      done: false
+    }, {
+      title: "题目2",
+      done: false
+
+    }]
+    // 本地存储设置
+    // localStorage.setItem("todo", todolist);//存储的是数组对象,不是字符串
+    // 1.地存储localStorage只能存储字符串的数据格式,把我们的数组对象转化为字符串格式,通过json转化为字符串JSON.stringify()
+    localStorage.setItem("todo", JSON.stringify(todolist));//此时输出则会正常显示
+    // 从本地存储的string需要转化为数组,通过JSON.parse()转化为json对象,这样就可以获取指定索引的对象
+    var data = localStorage.getItem("todo");
+
+    console.log(JSON.parse(data)[0]);
+
+  </script>
+
+
+</body>
+
+</html>
