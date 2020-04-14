@@ -3,7 +3,7 @@ Web learning projects, notes, source code and some demos, involving HTML, CSS,js
 
 ## project
 
-### [kaolaProject](https://sparkparis.github.io/webStudy/kaolaProject/index.html)
+### 1 [kaolaProject](https://sparkparis.github.io/webStudy/kaolaProject/index.html)
 
 - Technology
 
@@ -17,7 +17,24 @@ Web learning projects, notes, source code and some demos, involving HTML, CSS,js
   Through the use of HTML. CSS to imitate the koala site to build static pages, achieve the dynamic style of CSS, style and structure to achieve separation.
 
 - [效果展示](https://sparkparis.github.io/webStudy/kaolaProject/index.html)
+### 2 个人博客
+本博客主要记录学习过程中技术笔记,项目展示情况,方便和各位一起交流
 
+- 基于hexo(yilia)+github搭建的博客
+- 选用主题yilia
+- blog实现点
+  - [分类构建](https://blog.csdn.net/dta0502/article/details/89607895)
+  - 所有文章缺失模块
+  - 侧边栏添加网易云音乐
+  - [添加文章访问量](http://www.janszeng.top/2017/08/30/hexo_yilia_count/)
+  - 添加版权信息(声明declare:true)
+  - 添加RSS
+  - SEO优化
+  - 加密文章url
+  - 添加sitemap
+  - 添加百度统计
+- [源码](https://github.com/SparkParis/sparkparis.github.io)
+- [效果](https://sparkparis.github.io/)
 ## demo
 ### 01_shoppingCart
 - Technology
@@ -85,23 +102,31 @@ Web learning projects, notes, source code and some demos, involving HTML, CSS,js
 ## code
 - [学习笔记code]()
 ## 前端学习网址链接
-- jQuery插件库网址1: http://www.jq22.com/
-- jQuery插件库网址2: http://www.htmleaf.com/
-- 全屏滚动插件网址: http://www.dowebok.com/demo/- 2014/77/
-- Bootstrap官网: https://v3.bootcss.com
-- W3Cschool在线文档: https://www.w3school.com.- cn/
-- Web文档查阅: https://developer.mozilla.org/- zh-CN/docs/Web/CSS
-- Web前端在线测试工具: https://tool.oschina.net/
-- 浏览器兼容性查阅: https://caniuse.com/
-- 颜色选择网址: https://flatuicolors.com/
-- CSS雪碧图制作网站: https://www.toptal.com/- developers/css/sprite-generator
-- 阿里图标库: https://www.iconfont.cn/
-- 字体下载地址: https://fonts.google.com/
-- 3d动画网址: https://threejs.org/
-- 图标编辑网址: http://fontstore.baidu.com/- static/editor/index.html
-- Web网站模板1: https://72k.us/file/- 21793581-422825200
-- Web网站模板2: http://demo.cssmoban.com/- cssthemes4/sbtp_20_brandy/index.html
-- MarkDown中文文档: https://markdown-zh.- readthedocs.io/en/latest/
-- Git中文参考文档: https://git-reference.- readthedocs.io/zh_CN/latest/
-
+- [前后端学习API](https://www.w3cschool.cn/tutorial)
+- 后端
+  - [nodejs查询w3cshool在线手册](https://www.w3cschool.cn/nodejs/nodejs-repl.html)
+  - [nodejs官网插件使用](https://www.npmjs.com/package/)
+  - [nodejs中文网](http://nodejs.cn/api/v8.html)
+  - [Express中文API](https://www.expressjs.com.cn/4x/api.html)
+- 前端
+  - [stackoverflow报错查询](https://stackoverflow.com/questions/38937095/no-gulpfile-found)
+  - [前端构建化工具gulp](https://gulpjs.com/docs/en/getting-started/creating-tasks)
+  - [WebMDN 详细 API](https://developer.mozilla.org/zh-CN/docs/Web/API)
+  - [jQuery插件库网址1](http://www.jq22.com/)
+  - [jQuery插件库网址2](http://www.htmleaf.com/)
+  - [全屏滚动插件网址](https://www.dowebok.com/)
+  - [Bootstrap官网](https://v3.bootcss.com)
+  - [W3Cschool在线文档](https://www.w3school.com.cn/)
+  - [Web前端在线测试工具](https://tool.oschina.net/)
+  - [浏览器兼容性查阅](https://caniuse.com/)
+  - [颜色选择网址](https://flatuicolors.com/)
+  - [CSS雪碧图制作网站](https://www.toptal.com/developers/css/sprite-generator)
+  - [阿里图标库](https://www.iconfont.cn/)
+  - [字体下载地址](https://fonts.google.com/)
+  - [3d动画网址](https://threejs.org/)
+  - [图标编辑网址](http://fontstore.baidu.com/static/editor/index.html)
+  - [Web网站模板1](https://72k.us/file/21793581-422825200)
+  - [Web网站模板2](http://demo.cssmoban.com/cssthemes4/sbtp_20_brandy/index.html)
+- [MarkDown中文文档](https://markdown-zh.readthedocs.io/en/latest/)
+- [Git中文参考文档](https://git-reference.readthedocs.io/zh_CN/latest/)
 
