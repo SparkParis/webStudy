@@ -35,6 +35,39 @@ Web learning projects, notes, source code and some demos, involving HTML, CSS,js
   - 添加百度统计
 - [源码](https://github.com/SparkParis/sparkparis.github.io)
 - [效果](https://sparkparis.github.io/)
+### 3 Nodejs实现多人博客管理系统
+- 技术:
+  - Nodejs+Express框架
+  - MongoDB数据库的CRUD操作,数据分页操作
+  - 模板引擎art-template
+  - jQuery
+  - bootstrap
+  - JavaScript
+- 难点
+  - 实现数据分页(通过两种方式)
+    - 通过计算
+    - 通过第三方模块mongoose-sex-page
+  - 模板引擎的熟练使用
+  - 文件上传
+    - 第三方模块formidable解析表单,支持get请求参数，post请求参数、文件上传
+    - 通过FileReader实现file文件上传之后的预览的解析获取
+  - 通过session和cookie实现用户是否登录的验证,通过隐藏域实现删除
+  - 通过第三方模块joi实现标三验证
+  - 利用bcrypt的单程加密方式对密码加密
+  - 第三方模块config对开发环境进行不同配置
+- 功能描述
+  - 实现的管理系统主要包括两种权限管理员和普通用户
+    - 管理员进入用户管理管理界面
+      - 用户管理:添加删除编辑用户
+      - 文章管理:添加删除编辑文章
+      - 退出登录
+    - 普通用户登录进入博客首页
+      - 博客首页有用户登录,退出,文章show
+      - 点击文章进入文章详情页面
+      - 文章详情页面实现文章评论(前提是已经登录)
+      - 普通用户不能访问用户管理界面
+- [源码](https://github.com/SparkParis/webStudy/tree/master/project/BlogCase)
+- 效果展示服务器部署中
 ## demo
 ### 01_shoppingCart
 - Technology
