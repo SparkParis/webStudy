@@ -68,6 +68,14 @@ Web learning projects, notes, source code and some demos, involving HTML, CSS,js
       - 普通用户不能访问用户管理界面
 - [源码](https://github.com/SparkParis/webStudy/tree/master/project/BlogCase)
 - 效果展示服务器部署中
+### 4 mongodb+express+node+Ajax+jQuery+js实现网站(前后端分类模式)
+- 技术:
+  - 前端:ajax+jquery+js+html+css+bootstrap
+  - 后端:node+express框架
+  - 数据库:mongodb
+- [详细介绍见个人博客](https://sparkparis.github.io/2020/04/27/Ajax-project/)
+- [源码](https://github.com/SparkParis/webStudy/tree/master/project/AlibaixiuCase)
+- [效果展示]()
 ## demo
 ### 01_shoppingCart
 - Technology
